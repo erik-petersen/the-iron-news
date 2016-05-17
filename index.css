@@ -76,8 +76,6 @@ header {
 
 .header-extra-text {
   float: left;
-  width: 15%;
-  /*background: #ccc;*/
 }
 
 .header-i {
@@ -92,6 +90,7 @@ header {
 .header-name {
   display: inline-block;
   padding-right: 2px;
+  font-weight: 900;
 }
 
 /**********************************************************
@@ -105,13 +104,13 @@ nav {
 
 .nav-ul li {
   display: inline-block;
-  padding: 5px 10px;
-  margin: 6px;
-  border-right: 2px solid #fff;
+  padding: 5px 7px 5px 0;
+  margin: 6px 0;
+  border-right: 1.5px solid #fff;
 }
 
 .nav-ul li:first-child {
-  padding-left: -10px;
+  padding-left: 15px;
 }
 
 .nav-ul li:last-child {
@@ -140,17 +139,17 @@ main {
 }
 
 .news-list li {
-  padding: 0 0 8px 8px;
+  padding: 0 0 8px 15px;
 }
 
 .news-list-line2 {
   margin-left: 32px;
   font-size: .8em;
-  color: #cdb79e;
+  color: #777;
 }
 
 .news-link {
-  color: #cdb79e;
+  color: #777;
   font-size: .8em;
 }
 
@@ -172,3 +171,33 @@ main {
 /**********************************************************
 FOOTER
 **********************************************************/
+
+footer {
+  /*margin: 0 auto;*/
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer-list {
+  /*float: left;*/
+
+}
+
+.footer-list li {
+  display: inline-block;
+  padding-right: 12px;
+  margin-right: 7px;
+  border-right: 2px solid #000;
+}
+
+.footer-list li:last-child {
+  border-right: 0;
+}
+
+.footer-list a {
+  color: #000;
+}
+
+.footer-search {
+  padding-top: 25px;
+}
