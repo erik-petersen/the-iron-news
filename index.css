@@ -71,12 +71,13 @@ HEADER
 
 header {
   background: #777;
+  margin-bottom: 15px;
 }
 
 .header-extra-text {
   float: left;
   width: 15%;
-  background: #ccc;
+  /*background: #ccc;*/
 }
 
 .header-i {
@@ -98,7 +99,7 @@ NAVIGATION
 **********************************************************/
 
 nav {
-  background: #ccc;
+  background: #777;
   width: 100%;
 }
 
@@ -133,9 +134,19 @@ main {
   clear: left;
 }
 
-ol {
+.news-list {
   list-style: decimal;
   list-style-position: inside; /* compliments of http://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered */
+}
+
+.news-list li {
+  padding: 0 0 8px 8px;
+}
+
+.news-list-line2 {
+  margin-left: 32px;
+  font-size: .8em;
+  color: #cdb79e;
 }
 
 .news-link {
@@ -143,7 +154,20 @@ ol {
   font-size: .8em;
 }
 
+.more {
+  margin: 15px 0 15px 51px;
+}
 
+.more a {
+  color: #000;
+}
+
+/* compliments of http://stackoverflow.com/questions/4151743/how-i-change-the-thickness-of-my-hr-tag */
+.horizontal-line {
+    border: none;
+    height: 3px;
+    background-color: #777;
+}
 
 /**********************************************************
 FOOTER
