@@ -3,16 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>The Iron News</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
     <!-- header includes text followed by nav elements which are on the left.  Login is on the right -->
     <header>
-      <span class="header-i">I</span>
-      <span class="header-name">Iron News</span>
+      <div class="header-extra-text">
+        <span class="header-i">I</span>
+        <span class="header-name">Iron News</span>
+      </div>
       <nav>
-        <ul>
+        <ul class="nav-ul">
           <li>new</li>
           <li>comments</li>
           <li>show</li>
@@ -27,7 +29,7 @@
     <!-- main section includes ordered list of the individual news articles -->
     <main>
       <ol class="news-teaser">
-        <li><img src="assets/images/grayarrow.gif" alt="arrow for more detail">The Iron Yard welcomes new DC engineering cohorts<a href="http://theironyard.com">(theironyard.com)</a>
+        <li><img src="assets/images/grayarrow.gif" alt="arrow for more detail">The Iron Yard welcomes new DC engineering cohorts<a href="http://theironyard.com" class="news-link">(theironyard.com)</a>
           <br>144 points by CapitalistCartr 1 hour ago | 27 comments</li>
         <li></li>
         <li></li>
@@ -50,7 +52,7 @@
       </ul>
       <form action="#" method="post">
         <label>
-          Search
+          Search:
           <input type="text" name="search" id="search">
         </label>
       </form>

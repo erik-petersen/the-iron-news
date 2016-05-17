@@ -1,1 +1,67 @@
+body {
+  background: #e3e3e3;
+  width: 100%;
+  font-family: verdana;
+}
 
+body a {
+  text-decoration: none;
+}
+
+/**********************************************************
+HEADER
+**********************************************************/
+header {
+  background: #777;
+}
+
+.header-extra-text {
+  width: 25%;
+  position: relative;
+  left: 2%;
+}
+
+.header-i {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  font-weight: 900;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.header-name {
+  display: inline-block;
+}
+
+/**********************************************************
+NAVIGATION
+**********************************************************/
+.nav-ul li {
+  display: inline-block;
+}
+
+nav {
+  background: #fff;
+  clear: left;
+  position: absolute;
+  width: 75%;
+}
+
+/**********************************************************
+MAIN
+**********************************************************/
+.news-teaser {
+
+}
+
+.news-link {
+  color: #cdb79e;
+  font-size: .8em;
+}
+
+
+
+/**********************************************************
+FOOTER
+**********************************************************/
